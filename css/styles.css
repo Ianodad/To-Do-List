@@ -1,0 +1,28 @@
+body{
+  background-image: url(../images/to-do.jpg);
+}
+.jumbotron{
+  text-align: center;
+  background-color: rgba(100,128,128,0.7);
+  border: none;
+  outline: none;
+  color: white;
+}
+.box{
+  background-color: rgba(100,128,128,0.7);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 3px;
+}
+.toDoItems{
+  width: 45%;
+  margin-right: 5px;
+}
+.doneItems{
+
+}
+.btn{
+  margin-top: 3%;
+
+}

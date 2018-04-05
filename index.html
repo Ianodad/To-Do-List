@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>To Do List</title>
+</head>
+
+<body>
+  <div class="container">
+
     <head>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-3.3.1.js"></script>
-        <script src="js/scripts.js"></script>
-        <title>To Do List</title>
+      <h1 class="jumbotron">To-Do List</h1>
     </head>
+    <div class="row">
 
-    <body>
-        <div class="container">
-            <h1>To Do LIST</h1>
+      <div class="col-md-6 toDoItems box">
+        <form id=addItemForm>
+          <label for="addItem"></label>
+          <input type="text" class="form-control" id="addItem">
+          <button type="submit" class="btn btn-primary">Add Item</button>
+        </form>
+      </div>
+      <div class="col-md-6 doneItems box">
+      </div>
 
-        </div>
-    </body>
+    </div>
+  </div>
+</body>
 
-</html>
+</html
